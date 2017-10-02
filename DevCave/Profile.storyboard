@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile-->
+        <scene sceneID="vhS-JD-T0G">
+            <objects>
+                <viewController id="Wt6-I5-1BF" customClass="ProfileViewController" customModule="DevCave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OeI-cq-dmw"/>
+                        <viewControllerLayoutGuide type="bottom" id="vni-9a-6Sw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="alB-nm-sEr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzh-hP-iRl">
+                                <rect key="frame" x="0.0" y="588" width="375" height="30"/>
+                                <color key="backgroundColor" red="0.92292592009999996" green="0.27258345880000001" blue="0.24868163160000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="logout_Clicked:" destination="Wt6-I5-1BF" eventType="touchUpInside" id="8fn-xu-AAG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Pzh-hP-iRl" secondAttribute="trailing" id="2xj-yy-hkg"/>
+                            <constraint firstItem="vni-9a-6Sw" firstAttribute="top" secondItem="Pzh-hP-iRl" secondAttribute="bottom" id="ted-uI-i4K"/>
+                            <constraint firstItem="Pzh-hP-iRl" firstAttribute="leading" secondItem="alB-nm-sEr" secondAttribute="leading" id="yjg-an-pwF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="nQf-ol-4Qa"/>
+                    <connections>
+                        <outlet property="logoutButton" destination="Pzh-hP-iRl" id="O9P-jZ-Bif"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UML-QB-Dgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2840.8000000000002" y="129.98500749625188"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="bgc-DA-M28">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationProfile" automaticallyAdjustsScrollViewInsets="NO" id="mjC-iy-wV6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="profilePic" id="Wf4-w7-6g6"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zLD-xm-SRn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Wt6-I5-1BF" kind="relationship" relationship="rootViewController" id="LEK-gy-o7l"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GHF-y0-8pr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2841" y="-665"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="profilePic" width="16" height="16"/>
+    </resources>
+</document>

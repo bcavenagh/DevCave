@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Teams-->
+        <scene sceneID="vhO-ke-xUq">
+            <objects>
+                <viewController id="bma-Mu-qkc" customClass="MyTeamsViewController" customModule="DevCave" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pwc-3F-NaG"/>
+                        <viewControllerLayoutGuide type="bottom" id="83a-HH-HzQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hEs-22-JPd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="My Teams" id="jpf-pz-Tt5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3n3-Hf-FA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2374" y="-705"/>
+        </scene>
+        <!--My Teams-->
+        <scene sceneID="Qyi-y4-bRD">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationTeams" automaticallyAdjustsScrollViewInsets="NO" id="mFC-rW-qw2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="My Teams" image="group" id="Lqg-Lb-U5u"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="poK-tn-uQQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bma-Mu-qkc" kind="relationship" relationship="rootViewController" id="W8j-P4-kxy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4XH-e9-ONs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2375" y="-1455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="group" width="25" height="25"/>
+    </resources>
+</document>

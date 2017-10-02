@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2AD55A1F46196D008F3147 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2AD5591F46196D008F3147 /* Profile.storyboard */; };
+		8B2AD55C1F461AEC008F3147 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AD55B1F461AEC008F3147 /* ProfileViewController.swift */; };
+		8B2AD55E1F46205F008F3147 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AD55D1F46205F008F3147 /* AuthService.swift */; };
+		8B2AD5601F46290A008F3147 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AD55F1F46290A008F3147 /* Config.swift */; };
 		8BE5DA031F44E23E003FB722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA021F44E23E003FB722 /* AppDelegate.swift */; };
-		8BE5DA051F44E23E003FB722 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA041F44E23E003FB722 /* FirstViewController.swift */; };
-		8BE5DA071F44E23E003FB722 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA061F44E23E003FB722 /* SecondViewController.swift */; };
-		8BE5DA0A1F44E23E003FB722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5DA081F44E23E003FB722 /* Main.storyboard */; };
+		8BE5DA051F44E23E003FB722 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA041F44E23E003FB722 /* HomeViewController.swift */; };
+		8BE5DA071F44E23E003FB722 /* MyIdeasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA061F44E23E003FB722 /* MyIdeasViewController.swift */; };
+		8BE5DA0A1F44E23E003FB722 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5DA081F44E23E003FB722 /* Start.storyboard */; };
 		8BE5DA0C1F44E23E003FB722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5DA0B1F44E23E003FB722 /* Assets.xcassets */; };
 		8BE5DA0F1F44E23E003FB722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5DA0D1F44E23E003FB722 /* LaunchScreen.storyboard */; };
 		8BE5DA1A1F44E23E003FB722 /* DevCaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA191F44E23E003FB722 /* DevCaveTests.swift */; };
 		8BE5DA251F44E23E003FB722 /* DevCaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA241F44E23E003FB722 /* DevCaveUITests.swift */; };
+		8BE5DA331F44FC14003FB722 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA321F44FC14003FB722 /* LoginViewController.swift */; };
+		8BE5DA351F45032A003FB722 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA341F45032A003FB722 /* SignUpViewController.swift */; };
+		8BE5DA371F455836003FB722 /* MyTeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE5DA361F455836003FB722 /* MyTeamsViewController.swift */; };
+		8BE5DA391F455FB6003FB722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5DA381F455FB6003FB722 /* Main.storyboard */; };
+		8BE5DA3B1F456193003FB722 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5DA3A1F456193003FB722 /* Home.storyboard */; };
+		8BE5DA3D1F4561CC003FB722 /* Ideas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5DA3C1F4561CC003FB722 /* Ideas.storyboard */; };
+		8BE5DA3F1F4561EF003FB722 /* Teams.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5DA3E1F4561EF003FB722 /* Teams.storyboard */; };
+		8BE5DA431F45ECCE003FB722 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BE5DA421F45ECCE003FB722 /* GoogleService-Info.plist */; };
+		F68B9718B14D73C7DE3B7E7C /* Pods_DevCave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5B32EA60AC9C033D3AB7BD /* Pods_DevCave.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79C624620CF5C458ECBFAC6C /* Pods-DevCave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevCave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevCave/Pods-DevCave.debug.xcconfig"; sourceTree = "<group>"; };
+		8B2AD5591F46196D008F3147 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8B2AD55B1F461AEC008F3147 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8B2AD55D1F46205F008F3147 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		8B2AD55F1F46290A008F3147 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		8BE5D9FF1F44E23E003FB722 /* DevCave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevCave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE5DA021F44E23E003FB722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BE5DA041F44E23E003FB722 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8BE5DA061F44E23E003FB722 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		8BE5DA091F44E23E003FB722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BE5DA041F44E23E003FB722 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8BE5DA061F44E23E003FB722 /* MyIdeasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIdeasViewController.swift; sourceTree = "<group>"; };
+		8BE5DA091F44E23E003FB722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Start.storyboard; sourceTree = "<group>"; };
 		8BE5DA0B1F44E23E003FB722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BE5DA0E1F44E23E003FB722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BE5DA101F44E23E003FB722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +67,16 @@
 		8BE5DA201F44E23E003FB722 /* DevCaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevCaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE5DA241F44E23E003FB722 /* DevCaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevCaveUITests.swift; sourceTree = "<group>"; };
 		8BE5DA261F44E23E003FB722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE5DA321F44FC14003FB722 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8BE5DA341F45032A003FB722 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8BE5DA361F455836003FB722 /* MyTeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTeamsViewController.swift; sourceTree = "<group>"; };
+		8BE5DA381F455FB6003FB722 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8BE5DA3A1F456193003FB722 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8BE5DA3C1F4561CC003FB722 /* Ideas.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ideas.storyboard; sourceTree = "<group>"; };
+		8BE5DA3E1F4561EF003FB722 /* Teams.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Teams.storyboard; sourceTree = "<group>"; };
+		8BE5DA421F45ECCE003FB722 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB4EA934A7E392D45F3FDDDD /* Pods-DevCave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevCave.release.xcconfig"; path = "Pods/Target Support Files/Pods-DevCave/Pods-DevCave.release.xcconfig"; sourceTree = "<group>"; };
+		DC5B32EA60AC9C033D3AB7BD /* Pods_DevCave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevCave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68B9718B14D73C7DE3B7E7C /* Pods_DevCave.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4157E945B6170D51E3B1BDFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5B32EA60AC9C033D3AB7BD /* Pods_DevCave.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8BE5D9F61F44E23E003FB722 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				8BE5DA181F44E23E003FB722 /* DevCaveTests */,
 				8BE5DA231F44E23E003FB722 /* DevCaveUITests */,
 				8BE5DA001F44E23E003FB722 /* Products */,
+				8C3FBCAC360FC33A7EDA6A6F /* Pods */,
+				4157E945B6170D51E3B1BDFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +138,15 @@
 		8BE5DA011F44E23E003FB722 /* DevCave */ = {
 			isa = PBXGroup;
 			children = (
-				8BE5DA021F44E23E003FB722 /* AppDelegate.swift */,
-				8BE5DA041F44E23E003FB722 /* FirstViewController.swift */,
-				8BE5DA061F44E23E003FB722 /* SecondViewController.swift */,
-				8BE5DA081F44E23E003FB722 /* Main.storyboard */,
+				8B2AD55D1F46205F008F3147 /* AuthService.swift */,
+				8B2AD55F1F46290A008F3147 /* Config.swift */,
+				8BE5DA411F457274003FB722 /* ViewControllers */,
+				8BE5DA401F457262003FB722 /* Storyboards */,
 				8BE5DA0B1F44E23E003FB722 /* Assets.xcassets */,
 				8BE5DA0D1F44E23E003FB722 /* LaunchScreen.storyboard */,
 				8BE5DA101F44E23E003FB722 /* Info.plist */,
+				8BE5DA421F45ECCE003FB722 /* GoogleService-Info.plist */,
+				8BE5DA021F44E23E003FB722 /* AppDelegate.swift */,
 			);
 			path = DevCave;
 			sourceTree = "<group>";
@@ -128,6 +169,41 @@
 			path = DevCaveUITests;
 			sourceTree = "<group>";
 		};
+		8BE5DA401F457262003FB722 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8BE5DA081F44E23E003FB722 /* Start.storyboard */,
+				8BE5DA381F455FB6003FB722 /* Main.storyboard */,
+				8BE5DA3A1F456193003FB722 /* Home.storyboard */,
+				8B2AD5591F46196D008F3147 /* Profile.storyboard */,
+				8BE5DA3C1F4561CC003FB722 /* Ideas.storyboard */,
+				8BE5DA3E1F4561EF003FB722 /* Teams.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		8BE5DA411F457274003FB722 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BE5DA321F44FC14003FB722 /* LoginViewController.swift */,
+				8BE5DA341F45032A003FB722 /* SignUpViewController.swift */,
+				8BE5DA041F44E23E003FB722 /* HomeViewController.swift */,
+				8B2AD55B1F461AEC008F3147 /* ProfileViewController.swift */,
+				8BE5DA061F44E23E003FB722 /* MyIdeasViewController.swift */,
+				8BE5DA361F455836003FB722 /* MyTeamsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8C3FBCAC360FC33A7EDA6A6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79C624620CF5C458ECBFAC6C /* Pods-DevCave.debug.xcconfig */,
+				BB4EA934A7E392D45F3FDDDD /* Pods-DevCave.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BE5DA291F44E23E003FB722 /* Build configuration list for PBXNativeTarget "DevCave" */;
 			buildPhases = (
+				9A56E8F22EB34F3CCF90FBC6 /* [CP] Check Pods Manifest.lock */,
 				8BE5D9FB1F44E23E003FB722 /* Sources */,
 				8BE5D9FC1F44E23E003FB722 /* Frameworks */,
 				8BE5D9FD1F44E23E003FB722 /* Resources */,
+				5BC5F4B0E5651641D508DE10 /* [CP] Embed Pods Frameworks */,
+				1AD266C71AE083DBB466B00C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +317,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE5DA3F1F4561EF003FB722 /* Teams.storyboard in Resources */,
+				8BE5DA431F45ECCE003FB722 /* GoogleService-Info.plist in Resources */,
 				8BE5DA0F1F44E23E003FB722 /* LaunchScreen.storyboard in Resources */,
+				8BE5DA3B1F456193003FB722 /* Home.storyboard in Resources */,
 				8BE5DA0C1F44E23E003FB722 /* Assets.xcassets in Resources */,
-				8BE5DA0A1F44E23E003FB722 /* Main.storyboard in Resources */,
+				8BE5DA0A1F44E23E003FB722 /* Start.storyboard in Resources */,
+				8B2AD55A1F46196D008F3147 /* Profile.storyboard in Resources */,
+				8BE5DA391F455FB6003FB722 /* Main.storyboard in Resources */,
+				8BE5DA3D1F4561CC003FB722 /* Ideas.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +345,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AD266C71AE083DBB466B00C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevCave/Pods-DevCave-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC5F4B0E5651641D508DE10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevCave/Pods-DevCave-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A56E8F22EB34F3CCF90FBC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BE5D9FB1F44E23E003FB722 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BE5DA071F44E23E003FB722 /* SecondViewController.swift in Sources */,
+				8BE5DA331F44FC14003FB722 /* LoginViewController.swift in Sources */,
+				8BE5DA071F44E23E003FB722 /* MyIdeasViewController.swift in Sources */,
+				8B2AD5601F46290A008F3147 /* Config.swift in Sources */,
 				8BE5DA031F44E23E003FB722 /* AppDelegate.swift in Sources */,
-				8BE5DA051F44E23E003FB722 /* FirstViewController.swift in Sources */,
+				8BE5DA371F455836003FB722 /* MyTeamsViewController.swift in Sources */,
+				8B2AD55C1F461AEC008F3147 /* ProfileViewController.swift in Sources */,
+				8BE5DA051F44E23E003FB722 /* HomeViewController.swift in Sources */,
+				8BE5DA351F45032A003FB722 /* SignUpViewController.swift in Sources */,
+				8B2AD55E1F46205F008F3147 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +442,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8BE5DA081F44E23E003FB722 /* Main.storyboard */ = {
+		8BE5DA081F44E23E003FB722 /* Start.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8BE5DA091F44E23E003FB722 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Start.storyboard;
 			sourceTree = "<group>";
 		};
 		8BE5DA0D1F44E23E003FB722 /* LaunchScreen.storyboard */ = {
@@ -419,6 +558,7 @@
 		};
 		8BE5DA2A1F44E23E003FB722 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C624620CF5C458ECBFAC6C /* Pods-DevCave.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PWR44QNY33;
@@ -432,6 +572,7 @@
 		};
 		8BE5DA2B1F44E23E003FB722 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4EA934A7E392D45F3FDDDD /* Pods-DevCave.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PWR44QNY33;
@@ -520,6 +661,7 @@
 				8BE5DA2B1F44E23E003FB722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BE5DA2C1F44E23E003FB722 /* Build configuration list for PBXNativeTarget "DevCaveTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +670,7 @@
 				8BE5DA2E1F44E23E003FB722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BE5DA2F1F44E23E003FB722 /* Build configuration list for PBXNativeTarget "DevCaveUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +679,7 @@
 				8BE5DA311F44E23E003FB722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
